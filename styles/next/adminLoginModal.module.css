@@ -1,0 +1,96 @@
+.main{
+    
+}
+
+.main input{
+    background-color: #141416;
+    border: 1px solid #141416;
+    padding: 5px 5px;
+    border-radius: 3px;
+    color: white;
+}
+.main >div{
+    margin: 10px 0;
+}
+.main .tagContainer{
+    display: flex;
+    align-items: center;  
+}
+
+.tagContainer input,.tagContainer button{
+    height: 40px;
+    padding: 0px 10px;
+}
+
+.main select{
+    background-color: #141416;
+    border: 1px solid #141416;
+    padding: 5px 5px;
+    border-radius: 3px;
+    color: white;
+}
+
+.main textarea{
+    background-color: #141416;
+    border: 1px solid #141416;
+    padding: 5px 5px;
+    border-radius: 3px;
+    color: white;
+    width: 100%;
+    min-height: 200px;
+}
+
+
+.inputContainerSingle{
+    justify-content: center;
+    align-items: center;
+}
+.inputContainerDouble{
+    display: flex;
+}
+
+textarea .inputMain{
+    margin: 10px 0;
+}
+
+.inputContainerDouble .inputMain{
+    width: 50%;
+    margin: 10px 0;
+}
+
+
+
+.inputLabel{
+
+}
+
+
+.main img{
+    height: 60px;
+    border-radius: 10px;
+}
+
+.changeImgText{
+    
+}
+
+.file{
+    background-color: transparent!important;
+    border: navy!important;
+    padding: 0px!important;
+    border-radius: 0px!important;
+    color: white!important;
+}
+
+.removeImg{
+    display: block;
+    padding: 5px 10px;
+    background-color: rgb(77, 17, 20);
+    display: inline-block;
+    color: white;
+    margin: 0px 10px;
+}
+.removeImg:hover{
+    background-color: rgb(53, 3, 6);
+    cursor: pointer;
+}

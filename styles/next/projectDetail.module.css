@@ -1,0 +1,100 @@
+
+
+@media only screen and (min-width: 1300px){
+    .imageContainer{
+        position: relative;
+    }
+    
+    .image{
+        height: 500px;
+        width: 500px;
+        border-radius: 20px;
+    }
+    
+    .imageContainer a{
+        position: absolute;
+        top: 24px;
+        left: 24px;
+        padding: 7px 16px;
+        background: var(--primary);
+        border-radius: 8px;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: none;
+        cursor: default;
+    }
+    .imageContainer div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 24px;
+        right: 24px;
+        padding: 7px 16px;
+        background: #141416;
+        border-radius: 8px;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 500;
+        transition: 0.3s all ease-in-out;
+        text-transform:uppercase;
+    }
+    .imageContainer div:hover > img {
+        filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(141deg) brightness(102%) contrast(101%)!important;
+    }
+}
+
+@media only screen and (max-width: 1300px){
+    .divFlex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex:1
+    }
+    .imageContainer{
+        position: relative;
+    }
+    
+    .image{
+        position: relative;
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        border-radius: 20px;
+    }
+
+
+    
+    .imageContainer a{
+        position: absolute;
+        top: 24px;
+        left: 24px;
+        padding: 7px 16px;
+        background: var(--primary);
+        border-radius: 8px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: none;
+        cursor: default;
+    }
+    .imageContainer div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 24px;
+        right: 24px;
+        padding: 7px 16px;
+        background: #141416;
+        border-radius: 8px;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 500;
+        transition: 0.3s all ease-in-out;
+        text-transform:uppercase;
+    }
+    .imageContainer div:hover > img {
+        filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(141deg) brightness(102%) contrast(101%)!important;
+    }
+}

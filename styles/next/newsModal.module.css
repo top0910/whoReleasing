@@ -1,0 +1,25 @@
+.main{
+    
+}
+
+.main input{
+    background-color: #141416;
+    border: 1px solid #141416;
+    padding: 5px 5px;
+    border-radius: 3px;
+    color: white;
+}
+.main >div{
+    margin: 10px 0;
+}
+.main .tagContainer{
+    display: flex;
+    align-items: center;  
+}
+
+
+
+.inputContainerSingle{
+    justify-content: center;
+    align-items: center;
+}

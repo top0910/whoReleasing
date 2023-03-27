@@ -1,0 +1,125 @@
+.container{
+    height: 100vh;
+    background-color: #1d1d2a;
+    color: white;
+}
+
+.main{
+
+
+}
+
+.splitter{
+
+}
+.splitter div{
+    padding: 10px 40px;
+
+}
+
+.left{
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.right{
+    background-color: #1d1d2a;
+    min-height: 50vh;
+    color: white;
+}
+.header{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 800;
+}
+.desc{
+    font-size: 23px;
+    text-align: center;
+}
+
+
+
+/* change */
+.main h1,.main h2,.main h3,.main h4,.main h5{
+    border: none!important;
+}
+.titleContainer{
+    padding: 20px 20px;
+    background-color: #12121b;
+    display: flex;
+}.titleContainer input{
+    border: none;
+    height: 30px;
+    margin-left: 5px;
+    width: 50%;
+}
+.tagsContainer{
+    display: block;
+    padding: 20px 20px;
+    background-color: #12121b;
+}
+.tagsContainer >div:nth-child(1){
+    display: flex;
+    align-items: center;
+}
+.tagsContainer >div:nth-child(2){
+    margin-left: 20px;
+}
+.tagsContainer input{
+    border: none;
+    height: 30px;
+    margin-left: 5px;
+}
+.tagsContainer button{
+    border: none;
+    height: 30px;
+    padding: 0px 10px;
+    background-color: #306097;
+    color: white;
+}
+.tag{
+    color: rgb(156, 175, 216);
+    margin: 10px;
+    font-weight: 600;
+}
+
+.imageContainer{
+    padding: 20px 20px;
+    background-color: #12121b;
+}
+.main img{
+    max-height: 60px;
+}
+
+.upload{
+    background-color: #12121b;
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: rgb(2, 119, 55);
+    cursor: pointer;
+
+}
+.upload:hover{
+    background-color: rgb(2, 73, 34);
+}
+
+.main .error{
+    color: red;
+}
+
+.main .success{
+    color: aliceblue;
+}
+
+.headerContainer{
+    display: flex;
+    align-items: center;
+}
+
+.backButton{
+    padding: 10px 15px;
+    background-color: rgb(133, 10, 20);
+    text-align: black;
+    cursor: pointer;
+}

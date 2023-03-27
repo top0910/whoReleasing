@@ -1,0 +1,46 @@
+.relativeForm{
+    position: relative;
+}
+.searchSuggestionContainer{
+    position: absolute;
+    background-color: #18191d;
+    width: 98%;
+    font-size: 12px;
+    left: 50%;
+    transform: translate(-50%,0%);
+    color: white;
+    border: 1px solid #222630;
+
+}
+
+.searchSuggestion{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.searchSuggestion:hover{
+    cursor: pointer;
+    background-color: #151516;
+}
+
+.searchSuggestion *{
+    margin: 0 5px;
+}
+
+.searchSuggestion img {
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+}
+
+.line{
+    border-bottom: 1px solid #353942;
+    margin: 0 1%;
+}
+
+.submitedEmail{
+    color: #10bc9d!important;
+    font-size: 18px;
+    font-weight: 400;
+}

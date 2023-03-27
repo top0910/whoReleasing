@@ -1,0 +1,25 @@
+.container{
+    margin: 50px;
+}
+.tableHeader{
+    font-size: 25px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.container img{
+    width: 40px;
+    margin-right: 5px;
+}
+.createBut{
+    background-color: rgb(22, 22, 22);
+    color: white;
+    padding: 10px 5px;
+    margin-left: 30px;
+}
+.createBut:hover{
+    background-color: rgb(15, 46, 75);
+    cursor: pointer;
+}

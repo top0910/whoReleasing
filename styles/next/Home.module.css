@@ -1,0 +1,81 @@
+@media only screen and (max-width: 200000px) {    
+    .calenderDateHeader{
+        display: flex;
+        justify-content: space-between;
+    }
+    .calenderDateheadingText{
+        margin-bottom: 0px!important;
+        align-self: center;
+    }
+    .dateMeta{
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .dateMeta *{
+        margin-right: 5px;
+    }
+
+    .dateMetaDay{
+        font-size: 20px;
+        font-weight: 400;
+        color: var(--onsurface);
+        margin-left: 5px;
+    }
+
+    .dateMetaMonth{
+        font-size: 30px;
+        color: #10bc9d!important;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width: 800px) {    
+    .calenderDateHeader{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 12px;
+        
+    }
+    .dateGroupContainer{
+       max-width: 140px;
+       margin-top: 4px;
+    }
+    .dateGroupContainer input{
+        font-size: 13px!important;
+    }
+    
+    .calenderDateheadingText{
+        margin-bottom: 0px!important;
+        align-self: center;
+        font-size:1.5em;
+    }
+    .dateMeta{
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .dateMeta *{
+        margin-right: 5px;
+    }
+
+    .dateMetaDay{
+        font-size: 16px;
+        font-weight: 400;
+        color: var(--onsurface);
+        margin-left: 5px;
+    }
+
+    .dateMetaMonth{
+        font-size: 22px;
+        color: #10bc9d!important;
+        font-weight: 600;
+    }
+}
+
+.customTimerDropdown::before{
+    content: ""!important;
+}

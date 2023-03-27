@@ -1,0 +1,91 @@
+.header{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.adminContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+.adminMain{
+    flex: 1;
+    padding: 20px 0;
+    height: 100vh;
+}
+
+.projectListContainer{
+    padding: 20px;
+    color: black;
+    text-align: center;
+}
+
+.projectListItem img{
+    height: 50px;
+    border-radius: 10px;
+}
+
+
+
+/* table */
+.adminContainer .table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+  
+.adminContainer .table-container h2 {
+    margin: 0;
+    text-decoration: underline;
+}
+  
+.adminContainer table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+.adminContainer table td,
+.adminContainer th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+.adminContainer tr:nth-child(even) {
+    background-color: #e9ebec;
+}
+  
+.adminContainer tr:hover {
+    background-color: #ddd;
+}
+  
+.adminContainer th,
+.adminContainer tfoot td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #8e8e93;
+    color: white;
+}
+  
+.adminContainer .columns_toggle {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    background-color: rgb(175, 228, 122);
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+
+.adminContainer button{
+    color: black;
+    margin: 0px 1px;
+}
+.tableHeader{
+    color: #070707;
+    font-size: 30px;
+    text-align: center;
+}
